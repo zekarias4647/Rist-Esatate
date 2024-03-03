@@ -104,7 +104,7 @@ class _WaitingPageState extends State<WaitingPage>
                 ),
               ), // Shimmer effect for loading text
               const SizedBox(height: 20),
-              const CircularProgressIndicator(
+              CircularProgressIndicator(
                 strokeWidth: 2,
                 valueColor: AlwaysStoppedAnimation<Color>(
                   Color(0xFF005A8D), // Teal color
